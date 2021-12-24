@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-12-24T09:38:38 IST" name="Alaigal" finished-at="2021-12-24T09:38:49 IST" duration-ms="10605">
+    <groups>
+    </groups>
+    <test started-at="2021-12-24T09:38:38 IST" name="Test Cases" finished-at="2021-12-24T09:38:49 IST" duration-ms="10605">
+      <class name="testCase.Logout">
+        <test-method signature="logOut()[pri:0, instance:testCase.Logout@76908cc0]" started-at="2021-12-24T09:38:44 IST" name="logOut" finished-at="2021-12-24T09:38:49 IST" duration-ms="4483" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logOut -->
+      </class> <!-- testCase.Logout -->
+      <class name="testCase.Login">
+        <test-method signature="loginOperation()[pri:0, instance:testCase.Login@460d0a57]" started-at="2021-12-24T09:38:38 IST" name="loginOperation" finished-at="2021-12-24T09:38:44 IST" duration-ms="6069" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginOperation -->
+      </class> <!-- testCase.Login -->
+    </test> <!-- Test Cases -->
+  </suite> <!-- Alaigal -->
+</testng-results>
