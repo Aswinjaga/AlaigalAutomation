@@ -23,7 +23,8 @@ public class Logout {
 		MemberSignIn.loginBtn.click();
 		MemberLogout.logOut.click();
 		
-		BaseClass.driver.quit();
+		BaseClass.driver.quit(); 
+		
 
 	}
 

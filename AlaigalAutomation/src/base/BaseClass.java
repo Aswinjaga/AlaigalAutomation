@@ -1,5 +1,7 @@
 package base;
 
+import java.awt.AWTException;
+import java.awt.Robot;
 import java.io.FileInputStream;
 import java.io.IOException;
 import java.util.Properties;
@@ -9,8 +11,10 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.PageFactory;
 
+import elements.DirectRefElement;
 import elements.MemberLogout;
 import elements.MemberSignIn;
+import elements.OneToOneMeeting;
 
 
 
@@ -18,6 +22,7 @@ public class BaseClass {
 	
 	public static WebDriver driver;
 	public static Properties getprop;
+	public static Robot robot;
 	
 	public static WebDriver init() {
 		System.setProperty("webdriver.chrome.driver", "D:\\adm\\selenium\\jar file\\chromedriver.exe");
@@ -26,6 +31,8 @@ public class BaseClass {
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 		PageFactory.initElements(driver, MemberSignIn.class);
 		PageFactory.initElements(driver, MemberLogout.class);;
+		PageFactory.initElements(driver,OneToOneMeeting.class );
+		PageFactory.initElements(driver,DirectRefElement.class );
 		return driver;
 	}
 		public static Properties properties() throws IOException {
@@ -35,5 +42,12 @@ public class BaseClass {
 			getprop.load(fs);
 			return getprop;
 	}
-
+		
+		public static Robot robotClass() throws AWTException {
+			 robot=new Robot();
+			 return robot;
+			
+		}
+		
+	
 }

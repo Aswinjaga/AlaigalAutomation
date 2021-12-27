@@ -1,23 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-12-24T09:38:38 IST" name="Alaigal" finished-at="2021-12-24T09:38:49 IST" duration-ms="10605">
+  <suite started-at="2021-12-27T15:36:51 IST" name="Default suite" finished-at="2021-12-27T15:37:34 IST" duration-ms="42997">
     <groups>
     </groups>
-    <test started-at="2021-12-24T09:38:38 IST" name="Test Cases" finished-at="2021-12-24T09:38:49 IST" duration-ms="10605">
-      <class name="testCase.Logout">
-        <test-method signature="logOut()[pri:0, instance:testCase.Logout@76908cc0]" started-at="2021-12-24T09:38:44 IST" name="logOut" finished-at="2021-12-24T09:38:49 IST" duration-ms="4483" status="PASS">
+    <test started-at="2021-12-27T15:36:51 IST" name="Default test" finished-at="2021-12-27T15:37:34 IST" duration-ms="42997">
+      <class name="testCase.DirectRef">
+        <test-method signature="directRefOperation()[pri:0, instance:testCase.DirectRef@3eb7fc54]" started-at="2021-12-27T15:36:51 IST" name="directRefOperation" finished-at="2021-12-27T15:37:34 IST" duration-ms="42938" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- logOut -->
-      </class> <!-- testCase.Logout -->
-      <class name="testCase.Login">
-        <test-method signature="loginOperation()[pri:0, instance:testCase.Login@460d0a57]" started-at="2021-12-24T09:38:38 IST" name="loginOperation" finished-at="2021-12-24T09:38:44 IST" duration-ms="6069" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- loginOperation -->
-      </class> <!-- testCase.Login -->
-    </test> <!-- Test Cases -->
-  </suite> <!-- Alaigal -->
+        </test-method> <!-- directRefOperation -->
+      </class> <!-- testCase.DirectRef -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

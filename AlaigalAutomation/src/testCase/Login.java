@@ -24,6 +24,8 @@ public class Login {
 		MemberSignIn.loginBtn.click();
 		
 		BaseClass.driver.quit();
+		
+		
 	}
 
 }
