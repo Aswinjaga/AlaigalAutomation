@@ -12,9 +12,11 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.PageFactory;
 
 import elements.DirectRefElement;
+import elements.InviteGuestElement;
 import elements.MemberLogout;
 import elements.MemberSignIn;
 import elements.OneToOneMeeting;
+import elements.OpenRefElement;
 
 
 
@@ -33,6 +35,8 @@ public class BaseClass {
 		PageFactory.initElements(driver, MemberLogout.class);;
 		PageFactory.initElements(driver,OneToOneMeeting.class );
 		PageFactory.initElements(driver,DirectRefElement.class );
+		PageFactory.initElements(driver, OpenRefElement.class);
+		PageFactory.initElements(driver, InviteGuestElement.class);
 		return driver;
 	}
 		public static Properties properties() throws IOException {

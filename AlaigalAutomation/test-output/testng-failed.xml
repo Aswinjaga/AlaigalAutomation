@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testCase.DirectRef">
+      <class name="testCase.GuestOperation">
         <methods>
-          <include name="directRefOperation"/>
+          <include name="guestModule"/>
         </methods>
-      </class> <!-- testCase.DirectRef -->
+      </class> <!-- testCase.GuestOperation -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

@@ -56,8 +56,8 @@ public class OneToOne {
 		BaseClass.robotClass().keyRelease(KeyEvent.VK_CONTROL);
 		BaseClass.robotClass().keyPress(KeyEvent.VK_ENTER);
 
-
-		//OneToOneMeeting.submitbtn.click();
+		OneToOneMeeting.submitbtn.click();
+		BaseClass.driver.quit();
 
 	}
 

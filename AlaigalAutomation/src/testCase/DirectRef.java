@@ -17,7 +17,6 @@ import elements.OneToOneMeeting;
 
 public class DirectRef {
 
-
 	@Test
 	public void directRefOperation() throws IOException, AWTException, InterruptedException,IllegalArgumentException {
 
@@ -42,7 +41,7 @@ public class DirectRef {
 
 		String file1="D:\\download 1.jpg";
 		Actions action=new Actions(BaseClass.driver);
-		action.moveToElement(DirectRefElement.DirectRefPhoto).click().perform();;
+		action.moveToElement(DirectRefElement.DirectRefPhoto).click().perform();
 		StringSelection selection = new StringSelection(file1);
 		Toolkit.getDefaultToolkit().getSystemClipboard().setContents(selection, null);
 		Thread.sleep(3000);
@@ -51,6 +50,7 @@ public class DirectRef {
 		BaseClass.robotClass().keyRelease(KeyEvent.VK_V); 
 		BaseClass.robotClass().keyRelease(KeyEvent.VK_CONTROL);
 		BaseClass.robotClass().keyPress(KeyEvent.VK_ENTER);
-
+		//DirectRefElement.DirectSubmit.click();
+		BaseClass.driver.quit();
 	}
 }
