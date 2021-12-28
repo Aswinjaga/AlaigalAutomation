@@ -6,6 +6,7 @@ public class Onspot {
 		int j=10;
 		int K=10;
 		int y = j+K;
+		int z = 00;
 	}
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
