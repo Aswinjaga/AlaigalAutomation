@@ -12,7 +12,10 @@ public class ThanksNotesElement {
 	public static WebElement thanksNotes;
 	
 	@FindBy(xpath = "(//*[@class='form-control'])[1]")
-	public static WebElement thanksNotesSelect;
+	public static WebElement thanksNotesSelect1;
+	
+	@FindBy(xpath = "//option[@value='1']")
+	public static WebElement thanksNotesSelectMember;
 	
 	@FindBy(xpath = "(//*[@class='form-control'])[2]")
 	public static WebElement thanksNotesDate;

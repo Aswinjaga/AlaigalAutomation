@@ -77,5 +77,6 @@ public class GuestOperation {
 		BaseClass.robotClass().keyPress(KeyEvent.VK_ENTER);
 		
 		//InviteGuestElement.inviteSubmit.click();
+		BaseClass.driver.quit();
 }
 }

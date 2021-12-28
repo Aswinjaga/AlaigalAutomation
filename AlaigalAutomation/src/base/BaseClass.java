@@ -11,12 +11,14 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.PageFactory;
 
+import elements.ChangePassowrdElement;
 import elements.DirectRefElement;
 import elements.InviteGuestElement;
 import elements.MemberLogout;
 import elements.MemberSignIn;
 import elements.OneToOneMeeting;
 import elements.OpenRefElement;
+import elements.ThanksNotesElement;
 
 
 
@@ -37,6 +39,8 @@ public class BaseClass {
 		PageFactory.initElements(driver,DirectRefElement.class );
 		PageFactory.initElements(driver, OpenRefElement.class);
 		PageFactory.initElements(driver, InviteGuestElement.class);
+		PageFactory.initElements(driver, ChangePassowrdElement.class);
+		PageFactory.initElements(driver, ThanksNotesElement.class);
 		return driver;
 	}
 		public static Properties properties() throws IOException {

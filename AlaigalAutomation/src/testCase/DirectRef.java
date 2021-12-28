@@ -12,7 +12,6 @@ import org.testng.annotations.Test;
 import base.BaseClass;
 import elements.DirectRefElement;
 import elements.MemberSignIn;
-import elements.OneToOneMeeting;
 
 
 public class DirectRef {

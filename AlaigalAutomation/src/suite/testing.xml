@@ -6,7 +6,12 @@
 
 			<class name="testCase.Login"></class>
 			<class name="testCase.Logout"></class>
-
+			<class name="testCase.ChangePasswordOperation"></class>
+  			<class name="testCase.OneToOne"></class>
+  			<class name="testCase.OpenRefOperation"></class>
+  			<class name="testCase.DirectRef"></class>
+  			<class name="testCase.ThanksNotesOperation"></class>
+  			<class name="testCase.GuestOperation"></class>
 		</classes>
 	</test>
 

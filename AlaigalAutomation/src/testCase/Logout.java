@@ -7,10 +7,10 @@ import java.io.IOException;
 
 import org.testng.annotations.Test;
 
-@Test
+
 public class Logout {
 
-
+	@Test
 	public void logOut() throws IOException {
 		BaseClass.init();
 		BaseClass.driver.get(BaseClass.properties().getProperty("URL"));

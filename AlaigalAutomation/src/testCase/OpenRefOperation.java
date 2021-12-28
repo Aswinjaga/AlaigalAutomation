@@ -11,7 +11,7 @@ import elements.OpenRefElement;
 public class OpenRefOperation {
 	
 	@Test
-	public void directRef() throws IOException {
+	public void openRef() throws IOException {
 		
 		BaseClass.init();
 		BaseClass.driver.get(BaseClass.properties().getProperty("URL"));
