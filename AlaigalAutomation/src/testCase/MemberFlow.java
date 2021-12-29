@@ -23,9 +23,6 @@ import elements.OneToOneMeeting;
 import elements.OpenRefElement;
 import elements.ThanksNotesElement;
 
-
-
-
 public class MemberFlow {
 
 	@BeforeSuite

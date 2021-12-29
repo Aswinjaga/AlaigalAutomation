@@ -1,45 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-12-28T13:32:08 IST" name="Default suite" finished-at="2021-12-28T13:32:36 IST" duration-ms="27725">
+  <suite started-at="2021-12-29T15:50:43 IST" name="Default suite" finished-at="2021-12-29T15:50:49 IST" duration-ms="6274">
     <groups>
     </groups>
-    <test started-at="2021-12-28T13:32:08 IST" name="Default test" finished-at="2021-12-28T13:32:36 IST" duration-ms="27725">
-      <class name="testCase.MemberFlow">
-        <test-method is-config="true" signature="loginOperation()[pri:0, instance:testCase.MemberFlow@5c30a9b0]" started-at="2021-12-28T13:32:02 IST" name="loginOperation" finished-at="2021-12-28T13:32:08 IST" duration-ms="6002" status="PASS">
+    <test started-at="2021-12-29T15:50:43 IST" name="Default test" finished-at="2021-12-29T15:50:49 IST" duration-ms="6274">
+      <class name="testCase.MemberFormApprovalOperation">
+        <test-method signature="memberApproval()[pri:0, instance:testCase.MemberFormApprovalOperation@3eb7fc54]" started-at="2021-12-29T15:50:43 IST" name="memberApproval" finished-at="2021-12-29T15:50:49 IST" duration-ms="6220" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- loginOperation -->
-        <test-method signature="changePasSword()[pri:0, instance:testCase.MemberFlow@5c30a9b0]" started-at="2021-12-28T13:32:08 IST" name="changePasSword" finished-at="2021-12-28T13:32:10 IST" duration-ms="1724" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- changePasSword -->
-        <test-method signature="OneToOneMeet()[pri:1, instance:testCase.MemberFlow@5c30a9b0]" started-at="2021-12-28T13:32:10 IST" name="OneToOneMeet" finished-at="2021-12-28T13:32:15 IST" duration-ms="5145" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- OneToOneMeet -->
-        <test-method signature="openRef()[pri:2, instance:testCase.MemberFlow@5c30a9b0]" started-at="2021-12-28T13:32:15 IST" name="openRef" finished-at="2021-12-28T13:32:17 IST" duration-ms="1926" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- openRef -->
-        <test-method signature="directRefOperation()[pri:3, instance:testCase.MemberFlow@5c30a9b0]" started-at="2021-12-28T13:32:17 IST" name="directRefOperation" finished-at="2021-12-28T13:32:22 IST" duration-ms="5127" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- directRefOperation -->
-        <test-method signature="thanksNotes()[pri:4, instance:testCase.MemberFlow@5c30a9b0]" started-at="2021-12-28T13:32:22 IST" name="thanksNotes" finished-at="2021-12-28T13:32:24 IST" duration-ms="1901" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- thanksNotes -->
-        <test-method signature="guestModule()[pri:5, instance:testCase.MemberFlow@5c30a9b0]" started-at="2021-12-28T13:32:24 IST" name="guestModule" finished-at="2021-12-28T13:32:36 IST" duration-ms="11829" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- guestModule -->
-        <test-method is-config="true" signature="logOut()[pri:0, instance:testCase.MemberFlow@5c30a9b0]" started-at="2021-12-28T13:32:36 IST" name="logOut" finished-at="2021-12-28T13:32:40 IST" duration-ms="4146" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- logOut -->
-      </class> <!-- testCase.MemberFlow -->
+        </test-method> <!-- memberApproval -->
+      </class> <!-- testCase.MemberFormApprovalOperation -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
