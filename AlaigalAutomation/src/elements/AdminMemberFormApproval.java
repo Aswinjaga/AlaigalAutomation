@@ -16,5 +16,9 @@ public class AdminMemberFormApproval {
 	@FindBy(xpath = "//input[@type='search']")
 	public static WebElement memberSearch;
 	
+	@FindBy(xpath = "//*[@id=\"datatable\"]/tbody")
+	public static WebElement membertable;
+	
+	
 	
 }
