@@ -5,6 +5,8 @@ import org.openqa.selenium.support.FindBy;
 
 public class MemberSignIn {
 	
+
+	
 	@FindBy(xpath = "//*[@id=\'login-email\']")
 	public static WebElement eMail;	
 	
